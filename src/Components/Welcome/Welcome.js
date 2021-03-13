@@ -1,9 +1,29 @@
 import React from 'react';
+import linkedinSvg from './linkedin.svg';
+import githubSvg from './github.svg';
+import pdf from './resume-pdf.pdf';
+import './Welcome.css';
 
 const Welcome = () => {
     return (
-        <section>
-            Welcome Page
+        <section className='Welcome'>
+            <h1>MATT WOODRUFF</h1>
+            <h2>Software Engineer</h2>
+            <nav>
+                <a href='https://www.linkedin.com/in/matt-j-woodruff/' target='_blank'>
+                    <img src={linkedinSvg} 
+                        alt='LinkedIn Icon' 
+                        className='icons' />
+                </a>
+                <a href='https://github.com/mattwoodruff808' target='_blank'>
+                    <img src={githubSvg} 
+                        alt='GitHub Icon' 
+                        className='icons' />
+                </a>
+                <a href={pdf} 
+                   target='_blank'
+                   className='resume'>View My Resume</a>
+            </nav>
         </section>
     )
 }

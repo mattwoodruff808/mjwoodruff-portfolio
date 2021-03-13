@@ -1,0 +1,25 @@
+.Welcome {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Welcome > nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+}
+
+.resume {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+}
