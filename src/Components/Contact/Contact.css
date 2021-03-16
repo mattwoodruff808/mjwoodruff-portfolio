@@ -1,0 +1,21 @@
+.Contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact > h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.Contact > p {
+    width: 60%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}

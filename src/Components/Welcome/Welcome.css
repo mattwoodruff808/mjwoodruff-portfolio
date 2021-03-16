@@ -30,6 +30,10 @@
     width: 50px;
 }
 
+.icons:hover {
+    transform: scale(1.1);
+}
+
 .resume {
     width: 180px;
     display: flex;
@@ -42,4 +46,8 @@
     color: black;
     border: 2px black solid;
     border-radius: 5px;
+}
+
+.resume:hover {
+    transform: scale(1.1);
 }
