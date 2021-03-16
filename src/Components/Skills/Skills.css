@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
@@ -10,9 +10,9 @@
 
 .blurb {
     height: 750px;
-    width: 35%;
+    width: 90%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     font-size: 18px;
@@ -27,35 +27,39 @@
     border-radius: 50%;
 }
 
-.skills-list {
+.blurb-text {
+    width: 40%;
+}
+
+.blurb-text > p {
+    margin-bottom: 15px;
+}
+
+.skills-box {
     height: 750px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 }
 
-.skills-list > h3 {
+.skills-box > h3 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.skills-list > ul {
-    font-size: 25px;
-}
-
-/* .flex-list {
+.skills-list {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-} */
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .skill-logos {
     height: 100px;
-}
-
-li {
-    list-style-type: none;
-    margin-bottom: 10px;
 }
