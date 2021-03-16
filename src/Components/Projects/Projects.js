@@ -1,6 +1,6 @@
 import React from 'react';
-import simpleThingsPic from '../../assets/simple-things.png';
-import hungreePic from '../../assets/hungree.png';
+import simpleThingsPic from '../../assets/simple-things-screen.png';
+import hungreePic from '../../assets/hungree-screen.png';
 import './Projects.css';
 
 const Projects = () => {
