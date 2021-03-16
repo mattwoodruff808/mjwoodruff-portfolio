@@ -20,7 +20,7 @@
     height: 350px;
     width: 650px;
     margin-left: 5%;
-    border: 1px solid black;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
@@ -32,10 +32,11 @@
 .project-info > h4 {
     font-size: 30px;
     margin-bottom: 15px;
+    color: #287094;
 }
 
 .project-info > p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -48,15 +49,16 @@
 }
 
 .project-skills > p {
-    height: 30px;
-    width: 120px;
-    border: 1px solid black;
+    padding: 3px 10px;
+    font-size: 12px;
+    color: #287094;
+    border: 1px solid #287094;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #f5fbfd;
     font-weight: bold;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -77,13 +79,13 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: black;
-    border: 2px black solid;
+    color: rgba(0, 0, 0, 0.8);
+    border: 2px rgba(0, 0, 0, 0.8) solid;
     border-radius: 5px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-right: 20px;
 }
 
 .project-btns:hover {
-    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.05);
 }

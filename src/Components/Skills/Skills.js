@@ -1,5 +1,5 @@
 import React from 'react';
-import mjwPic from './portfolio-picture-mjw.jpg';
+import mjwPic from '../../assets/portfolio-picture-mjw.jpg';
 import jsLogo from '../../assets/javascript-logo.png';
 import reactLogo from '../../assets/react-logo.png';
 import reduxLogo from '../../assets/redux-logo.png';

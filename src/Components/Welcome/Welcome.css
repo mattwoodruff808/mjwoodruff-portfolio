@@ -13,7 +13,6 @@
 
 .Welcome > h2 {
     font-size: 40px;
-    margin-top: 5px;
     margin-bottom: 35px;
 }
 
@@ -30,10 +29,6 @@
     width: 50px;
 }
 
-.icons:hover {
-    transform: scale(1.1);
-}
-
 .resume {
     width: 180px;
     display: flex;
@@ -43,11 +38,11 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: black;
-    border: 2px black solid;
+    color: rgba(0, 0, 0, 0.8);
+    border: 2px rgba(0, 0, 0, 0.8) solid;
     border-radius: 5px;
 }
 
 .resume:hover {
-    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.05);
 }
