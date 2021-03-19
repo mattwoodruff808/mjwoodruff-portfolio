@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "MattJWoodruff",
     description:
-      "Personal portfolio site for Matt J. Woodruff. Skills, projects, and contact info available for professional use only.",
+      "Personal portfolio site for Matt J. Woodruff. Skills, projects, and contact info listed. Please reach out for freelance or full-time work.",
     url: "https://www.mattjwoodruff.com",
     image: "/static/code-24px.svg",
   },
