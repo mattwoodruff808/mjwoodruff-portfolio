@@ -78,6 +78,10 @@
 }
 
 @media(max-width: 426px){
+    .Welcome {
+        height: 860px;
+    }
+
     .Welcome > h1 {
         font-size: 35px;
     }
