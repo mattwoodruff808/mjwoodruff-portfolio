@@ -46,3 +46,33 @@
 .resume:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
+
+@media(max-width: 1100px){
+    .Welcome > nav {
+        width: 40%;
+    }
+}
+
+@media(max-width: 900px){
+    /* No Changes */
+}
+
+@media(max-width: 650px){
+    .Welcome > nav {
+        width: 80%;
+    }
+}
+
+@media(max-width: 500px){
+    .Welcome > h1 {
+        font-size: 40px;
+    }
+    
+    .Welcome > h2 {
+        font-size: 30px;
+    }
+
+    .Welcome > nav {
+        margin-bottom: 175px;
+    }
+}
