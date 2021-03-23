@@ -130,3 +130,24 @@
         width: 90%;
     }
 }
+
+@media(max-width: 426px){
+    /* No Changes */
+}
+
+@media(max-width: 350px){
+    .skills-list {
+        width: 100%;
+    }
+}
+
+@media(max-width: 320px){
+    .pic {
+        height: 250px;
+        width: 250px;
+    }
+
+    .skill-logos {
+        height: 75px;
+    }
+}

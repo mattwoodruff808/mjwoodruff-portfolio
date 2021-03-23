@@ -76,3 +76,42 @@
         margin-bottom: 175px;
     }
 }
+
+@media(max-width: 426px){
+    .Welcome > h1 {
+        font-size: 35px;
+    }
+    
+    .Welcome > h2 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 350px){
+    .Welcome > h1 {
+        font-size: 30px;
+    }
+    
+    .Welcome > h2 {
+        font-size: 20px;
+    }
+
+    .Welcome > nav {
+        width: 90%;
+        margin-bottom: 200px;
+    }
+
+    .icons {
+        height: 45px;
+        width: 45px;
+    }
+    
+    .resume {
+        width: 150px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 320px){
+    /* No Changes */
+}

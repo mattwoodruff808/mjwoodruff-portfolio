@@ -46,3 +46,11 @@
         width: 85%;
     }
 }
+
+@media(max-width: 426px){
+    /* No Changes */
+}
+
+@media(max-width: 350px){
+    /* No Changes */
+}
