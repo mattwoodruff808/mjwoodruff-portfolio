@@ -27,10 +27,10 @@ const Projects = () => {
                     </div>
                     <p>Open Source | Personal Project</p>
                     <div className='button-flex'>
-                        <a href='https://the-simple-things.mattjwoodruff.com/#/'
+                        {/* <a href='https://the-simple-things.mattjwoodruff.com/#/'
                             target='_blank'
                             rel='noreferrer'
-                            className='project-btns'>Live Site</a>
+                            className='project-btns'>Live Site</a> */}
                         <a href='https://github.com/mattwoodruff808/personal-project'
                             target='_blank'
                             rel='noreferrer'
@@ -58,10 +58,10 @@ const Projects = () => {
                     </div>
                     <p>Open Source | Collaboration</p>
                     <div className='button-flex'>
-                        <a href='https://hungree.netlify.app/#/'
+                        {/* <a href='https://hungree.netlify.app/#/'
                             target='_blank'
                             rel='noreferrer'
-                            className='project-btns'>Live Site</a>
+                            className='project-btns'>Live Site</a> */}
                         <a href='https://github.com/restaurant-tinder-WR8/reastaurant-tinder'
                             target='_blank'
                             rel='noreferrer'
