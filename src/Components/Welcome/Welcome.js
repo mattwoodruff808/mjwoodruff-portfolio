@@ -1,7 +1,7 @@
 import React from 'react';
 import linkedinSvg from './linkedin.svg';
 import githubSvg from './github.svg';
-import pdf from './no-num-mjresume.pdf';
+import pdf from './MattJWoodruff Resume (1).pdf';
 import './Welcome.css';
 
 const Welcome = () => {
